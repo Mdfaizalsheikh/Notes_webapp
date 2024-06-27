@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.header-blue {
+    color: #00f;
+}
+
+.label-blue {
+    color: #00f;
+}
+
+.button-blue {
+    background-color: #00f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-blue:hover {
+    background-color: #007bff;
+}
+
+.input-black,
+.textarea-black {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.notes-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.note-item {
+    background-color: #444;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.note-item strong {
+    color: #00f;
+}
+
+.note-item a {
+    color: #00f;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.note-item a:hover {
+    text-decoration: underline;
+}
